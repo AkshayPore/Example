@@ -8,7 +8,7 @@ import os
 load_dotenv()
 
 # Perplexity API setup
-PERPLEXITY_API_KEY = os.getenv("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")  # Add your Perplexity API key to .env file
+PERPLEXITY_API_KEY = os.getenv("")  # Add your Perplexity API key to .env file
 PERPLEXITY_API_URL = "https://api.perplexity.ai/v1/chat/completions"  # Example endpoint, check Perplexity's docs
 
 # Your text
